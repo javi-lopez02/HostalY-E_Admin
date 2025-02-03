@@ -23,14 +23,14 @@ const Avatar = () => {
           aria-expanded="false"
           data-dropdown-toggle="dropdown"
         >
-          {user && (
+          {user?.image && (
             <img
               className="w-5 h-5 rounded-full"
               src={user.image}
               alt="user photo"
             />
           )}
-          {!user && (
+          {!user?.image && (
             <svg
               className="w-6 h-6"
               aria-hidden="true"

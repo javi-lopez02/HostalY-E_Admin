@@ -7,7 +7,7 @@ export interface User {
   username: string;
   id: string;
   role: "USER" | "ADMIN";
-  image?: string
+  image?: string;
 }
 
 export interface AuthContextType {
@@ -37,7 +37,7 @@ export type Oferts = {
 export type Desserts = {
   price: number;
   id: string;
-  name: string;
+  description: string;
   imagen: string;
   createdAt: string;
 };
@@ -79,3 +79,24 @@ export type Events = {
   imagen: string;
   createdAt: string;
 };
+
+export interface Order {
+  createdAt: string;
+  id: string;
+  totalAmount: number;
+  pending: boolean;
+  user: Users;
+  _count: {
+    orderItems: number;
+  };
+}
+
+export interface OrderItem {
+  id: string;
+  createdAt: string;
+  price: number;
+  quantity: number;
+  ofert: Oferts;
+  gastronomic: Gastronomics;
+  dessert: Desserts;
+}

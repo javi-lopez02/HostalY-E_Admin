@@ -1,5 +1,4 @@
 import { Link, Outlet } from "react-router-dom";
-import Notifications from "./Notifications";
 import DropdownComp from "./DropdownMenu";
 import SideBar from "./DrawerSideBar";
 import Avatar from "./Avatar";
@@ -22,7 +21,6 @@ function NavBar() {
             </Link>
           </div>
           <div className="flex items-center lg:order-2 space-x-2">
-            <Notifications />
             <DropdownComp />
             <Avatar />
           </div>
