@@ -9,7 +9,7 @@ import {
   ModalHeader,
   Spinner,
   Textarea,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { FC, useState } from "react";
 import { BiMoney, BiRename } from "react-icons/bi";
 import { Oferts } from "../../type";

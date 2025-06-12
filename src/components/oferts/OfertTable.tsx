@@ -25,7 +25,7 @@ import {
   Tooltip,
   Spinner,
   useDisclosure,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { type Oferts } from "../../type";
 import {
   ChevronDownIcon,

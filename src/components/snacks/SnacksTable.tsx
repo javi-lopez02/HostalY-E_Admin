@@ -26,7 +26,7 @@ import {
   Spinner,
   User,
   useDisclosure,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { type Snacks } from "../../type";
 import {
   ChevronDownIcon,

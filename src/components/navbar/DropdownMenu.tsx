@@ -1,4 +1,4 @@
-import { Popover, PopoverContent, PopoverTrigger } from "@nextui-org/react";
+import { Popover, PopoverContent, PopoverTrigger } from "@heroui/react";
 import { Link } from "react-router-dom";
 
 export default function DropdownComp() {

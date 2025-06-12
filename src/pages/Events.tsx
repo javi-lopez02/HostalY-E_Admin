@@ -1,4 +1,4 @@
-import { Spinner } from "@nextui-org/react";
+import { Spinner } from "@heroui/react";
 import { lazy, Suspense } from "react";
 
 const EventsTable = lazy(() => import("../components/events/EventsTable"));

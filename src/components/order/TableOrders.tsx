@@ -30,7 +30,7 @@ import {
   Tooltip,
   Spinner,
   useDisclosure,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { ChevronDownIcon, EyeIcon, SearchIcon } from "../Icons";
 import useOrder from "../../customHooks/useOrder";
 import { toast } from "sonner";

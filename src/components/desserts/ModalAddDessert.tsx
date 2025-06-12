@@ -8,7 +8,7 @@ import {
   ModalFooter,
   ModalHeader,
   Spinner,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { FC, useEffect, useState } from "react";
 import { BiImage, BiMoney, BiRename } from "react-icons/bi";
 import { Desserts } from "../../type";

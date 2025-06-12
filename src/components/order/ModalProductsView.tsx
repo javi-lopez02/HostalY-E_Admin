@@ -11,7 +11,7 @@ import {
   TableColumn,
   TableHeader,
   TableRow,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import React, { FC, useEffect, useMemo, useState } from "react";
 import { getOrderItemsRequest } from "../../services/order";
 import { OrderItem } from "../../type";
